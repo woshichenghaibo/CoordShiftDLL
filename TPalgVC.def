@@ -1,0 +1,14 @@
+; dll_def module-definition file
+
+;
+
+LIBRARY         CoordShift.dll
+
+DESCRIPTION     '(c)2007-2009 Wang Xuebin'
+
+EXPORTS
+
+                 
+				BL2XY @1
+				XY2BL @2
+				MeridianLength @3
